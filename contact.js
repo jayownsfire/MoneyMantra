@@ -9,8 +9,6 @@ function sendMessage() {
         document.getElementById("msg-status").innerHTML = "Please fill all fields.";
         return;
     }
-
-    // For now just show success message
     document.getElementById("msg-status").style.color = "green";
     document.getElementById("msg-status").innerHTML = "Message sent successfully!";
 }
