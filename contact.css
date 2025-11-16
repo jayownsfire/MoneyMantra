@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7faff;
+}
+
+.header {
+    text-align: center;
+    padding: 40px;
+    background: #1877f2;
+    color: white;
+}
+
+.home-btn {
+    background: white;
+    color: #1877f2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.contact-box {
+    width: 380px;
+    padding: 25px;
+    background: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-box button {
+    width: 100%;
+    padding: 12px;
+    background: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.info-box {
+    width: 300px;
+    padding: 30px;
+    background: #eaf4ff;
+    border-radius: 8px;
+    line-height: 1.7;
+}
+
+.social-links a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: bold;
+}
+
+.map-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
